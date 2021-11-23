@@ -89,4 +89,6 @@ else {
     console.log("s is not greater than 12")
 }
 
-413 % 2 === 0 ? console.log ( "The number is even." ) : console.log( "The number is odd." )
+
+var myNum = 413;
+myNum % 2 === 0 ? console.log ( "The number is even." ) : console.log( "The number is odd." )
