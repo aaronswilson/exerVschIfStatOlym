@@ -40,7 +40,7 @@ if( 1 === "1") {
     console.log("strict")
 }
 else if( 1 == "1") {
-    console.log("loose")
+    console.log("abstract")
 }
 else {
     console.log("not equal at all")
@@ -75,7 +75,7 @@ else {
 }
 
 let name = "Aaron"; 
-if( typeof name !== "undefined" ) {
+if( typeof name != "undefined" ) {
     console.log("defined")
 }
 else {
